@@ -1,0 +1,45 @@
+.hero-container{
+    height: 100vh;
+
+    .hero-wrapper{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        .logo{
+            max-width: 650px;
+            position: absolute;
+        }
+        .svg-container{
+            background-image: url('../../../public/assets/images/new-label.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 90vh;
+            width: 625px;            
+            position: relative;
+
+            .link-wrapper{
+                position: absolute;
+                width: 90%;
+                top: 27%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                gap: 20px;
+
+                a{
+                    text-decoration: none;
+                    text-transform: uppercase;  
+
+                    &:hover{
+                        scale: 1.1;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
